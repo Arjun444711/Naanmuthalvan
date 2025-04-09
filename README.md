@@ -1,21 +1,21 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-   <title>RESULT WINDOW</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
 </head>
-   <script>
-     x=parseInt(prompt("Enter the  X  is first number : ",0));
-     y=parseInt(prompt("Enter the Y is second number : ",0));
-     if(x>y)
-     {
-        alert("X is Greatest");
-      }
-     else
-     {
-        alert("Y is Greatest");
-      }
-     alert("The result is" + eval("alert('The Result of X-Y will be calculated');x-y;") +".");
-     document.write("Result Window");
-   </script>
- <body bgcolor="gray">
+<body>
+    <header>
+        <h1>Welcome to My Simple Webpage</h1>
+    </header>
+    
+    <main>
+        <p>This is a paragraph of text on my webpage. You can add more content here.</p>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 My Simple Webpage</p>
+    </footer>
 </body>
 </html>
